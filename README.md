@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/byteleaf/byteleaf-ui-react.svg?branch=master)](https://travis-ci.org/byteleaf/byteleaf-ui-react)
+
 ## Available Scripts
 
 In the project directory, you can run:
