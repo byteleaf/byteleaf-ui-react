@@ -4,7 +4,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "cross-env CI=true react-scripts test",
+    "test": "cross-env CI=true react-scripts test --coverage",
     "test:update": "cross-env CI=true react-scripts test -u",
     "test:watch": "react-scripts test",
     "lint": "eslint . --ext .js,.ts,.jsx,.tsx",
@@ -50,6 +50,12 @@
     "husky": "^3.0.9",
     "prettier": "^1.18.2",
     "react-test-renderer": "^16.10.2"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/components/**/*.{ts,tsx}",
+      "!src/components/**/*.stories.{ts,tsx}"
+    ]
   },
   "browserslist": {
     "production": [
