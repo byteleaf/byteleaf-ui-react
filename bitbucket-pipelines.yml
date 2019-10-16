@@ -1,0 +1,21 @@
+pipelines:
+  default:
+    - step:
+        name: Install
+        max-time: 5
+        caches:
+          - node
+        script:
+          - npm ci
+    - step:
+        name: Lint
+        caches:
+          - node
+        script:
+          - npm run lint
+    - step:
+        name: Test
+        caches:
+          - node
+        script:
+          - npm test
