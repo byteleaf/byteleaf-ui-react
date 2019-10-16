@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`loads and displays headline story 1`] = `
+exports[`BHeadline renders correctly 1`] = `
 <div>
   <div
     class="div-root-1 div-root-2"
