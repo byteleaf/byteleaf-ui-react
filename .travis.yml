@@ -3,5 +3,5 @@ node_js: '12'
 
 script:
   - npm ci
-  - npm lint
+  - npm run lint
   - npm test
