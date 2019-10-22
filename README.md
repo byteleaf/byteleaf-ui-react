@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/byteleaf/byteleaf-ui-react.svg?branch=master)](https://travis-ci.org/byteleaf/byteleaf-ui-react)
+[![Build Status](https://travis-ci.org/byteleaf/byteleaf-ui-react.svg?branch=master)](https://travis-ci.org/byteleaf/byteleaf-ui-react) [![codecov](https://codecov.io/gh/byteleaf/byteleaf-ui-react/branch/master/graph/badge.svg)](https://codecov.io/gh/byteleaf/byteleaf-ui-react)
 
 ## Available Scripts
 

@@ -3,5 +3,8 @@ node_js: '12'
 
 script:
   - npm ci
+  - npm install codecov -g
   - npm run lint
   - npm test
+after_success:
+  - codecov
