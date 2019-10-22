@@ -1,9 +1,11 @@
 {
   "name": "byteleaf-ui-react",
   "version": "0.0.1",
+  "author": "byteleaf GmbH",
+  "license": "ISC",
+  "main": "lib/index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "tsc -p tsconfig-build.json",
     "test": "cross-env CI=true react-scripts test",
     "test:update": "cross-env CI=true react-scripts test -u",
     "test:watch": "react-scripts test",
