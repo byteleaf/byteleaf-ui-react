@@ -4,7 +4,7 @@ import { BHeadline } from './BHeadline';
 import { GrayBackground } from '../../../../.storybook/decorators';
 
 export default {
-  title: 'Text',
+  title: 'Text|BHeadline',
 };
 
 export const BHeadlineStory = () => (
@@ -12,7 +12,7 @@ export const BHeadlineStory = () => (
 );
 
 BHeadlineStory.story = {
-  name: 'BHeadline',
+  name: 'Default',
   decorators: [GrayBackground],
   parameters: {
     notes: 'A Headline component, for example used as a title on a Paper or Card.',

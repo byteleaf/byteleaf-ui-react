@@ -27,6 +27,7 @@ module.exports = {
         devDependencies: ['src/**/*.stories.tsx', '**/*.test.tsx'],
       },
     ],
+    'react/jsx-props-no-spreading': 'off',
   },
   settings: {
     react: {

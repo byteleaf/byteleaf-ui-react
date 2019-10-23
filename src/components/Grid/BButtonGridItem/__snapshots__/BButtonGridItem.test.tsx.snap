@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BButtonGridItem renders correctly 1`] = `
+<div>
+  <div
+    class="MuiGrid-root makeStyles-root-1 MuiGrid-item MuiGrid-grid-xs-12"
+  >
+    <button>
+      test
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BPaddedPaper has a gray background 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation1 Component-root-30 Component-root-31 MuiPaper-rounded"
+  >
+    <div>
+      Layout
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BPaddedPaper renders correctly 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation1 Component-root-1 Component-root-2 MuiPaper-rounded"
+  >
+    <div>
+      Layout
+    </div>
+  </div>
+</div>
+`;
