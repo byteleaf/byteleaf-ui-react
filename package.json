@@ -1,6 +1,6 @@
 {
   "name": "byteleaf-ui-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "byteleaf GmbH",
   "license": "ISC",
   "main": "lib/index.js",
