@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BBoxLayout renders correctly 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-center"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-8 MuiGrid-grid-lg-6"
+    >
+      <div>
+        Layout
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BBoxLayout renders correctly on large 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-center"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-10 MuiGrid-grid-lg-8"
+    >
+      <div>
+        Layout
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BBoxLayout renders correctly on medium 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-center"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-8 MuiGrid-grid-lg-6"
+    >
+      <div>
+        Layout
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BBoxLayout renders correctly on small 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-center"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-6 MuiGrid-grid-lg-4"
+    >
+      <div>
+        Layout
+      </div>
+    </div>
+  </div>
+</div>
+`;
