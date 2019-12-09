@@ -13,10 +13,10 @@ interface PaddedPaperProps {
 
 export const BPaddedPaper = styled(
   ({
-    backgroundColor = '#00ff00',
+    backgroundColor = '#ffffff',
     ...other
   }: PaddedPaperStyleProps & Omit<PaddedPaperProps, keyof PaddedPaperStyleProps>) => <Paper {...other} />,
 )(({ theme, backgroundColor }: { theme: Theme } & PaddedPaperStyleProps) => ({
   backgroundColor,
-  padding: theme.spacing(2, 2),
+  padding: theme.spacing(4, 4),
 }));
