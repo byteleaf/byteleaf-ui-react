@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BPaddedCenterGrid renders correctly 1`] = `
+<div>
+  <div
+    class="MuiGrid-root WithStyles(ForwardRef(Grid))-root-1 WithStyles(ForwardRef(Grid))-root-2"
+  >
+    <button>
+      test
+    </button>
+  </div>
+</div>
+`;
