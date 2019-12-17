@@ -1,7 +1,6 @@
 import React from 'react';
 import { DropzoneArea } from 'material-ui-dropzone';
-import { FormHelperText } from '@material-ui/core';
-import './style.scss';
+import { FormHelperText, makeStyles } from '@material-ui/core';
 
 interface DropzoneProps {
   onChange: (files: File[]) => void;
@@ -12,6 +11,27 @@ interface DropzoneProps {
   maxFileSize: number;
 }
 
+const useStyles = makeStyles({
+  root: {
+    '&.dropzone-error': {
+      '& p': {
+        color: '#f44336 !important',
+      },
+    },
+    '& .byteleaf-dropzone': {
+      '& .byteleaf-dropzone-paragraph': {
+        fontFamily: 'Roboto, Helvetica, Arial, sans-serif',
+        fontWeight: 400,
+        lineHeight: 1.33,
+        letterSpacing: '0em',
+      },
+      '& .MuiChip-root': {
+        marginBottom: '8px',
+      },
+    },
+  },
+});
+
 export const BDropzone = ({
   onChange,
   dropzoneText,
@@ -20,8 +40,10 @@ export const BDropzone = ({
   errorText,
   maxFileSize,
 }: DropzoneProps) => {
+  const classes = useStyles();
+
   return (
-    <div className={`${errorText ? 'dropzone-error' : ''}`}>
+    <div className={`${classes.root} ${errorText ? 'dropzone-error' : ''}`}>
       <DropzoneArea
         useChipsForPreview
         dropzoneClass="byteleaf-dropzone"
