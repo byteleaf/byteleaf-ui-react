@@ -1,6 +1,6 @@
 {
   "name": "byteleaf-ui-react",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "author": "byteleaf GmbH",
   "license": "ISC",
   "main": "lib/index.js",
@@ -47,6 +47,7 @@
     "lodash": "^4.17.15",
     "prettier": "^1.18.2",
     "react": "^16.11.0",
+    "react-app-polyfill": "^1.0.5",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0",
     "react-test-renderer": "^16.11.0",
@@ -83,5 +84,9 @@
     "hooks": {
       "pre-commit": "npm run lint && npm test"
     }
+  },
+  "dependencies": {
+    "material-ui-dropzone": "^2.4.7",
+    "node-sass": "^4.13.0"
   }
 }

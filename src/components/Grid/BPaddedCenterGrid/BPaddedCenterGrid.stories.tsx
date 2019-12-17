@@ -14,7 +14,7 @@ export const BPaddedCenterGridStory = () => (
 );
 
 BPaddedCenterGridStory.story = {
-  name: 'default',
+  name: 'Default',
   parameters: {
     notes: 'A padded centered grid item',
   },

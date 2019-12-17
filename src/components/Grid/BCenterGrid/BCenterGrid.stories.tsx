@@ -14,7 +14,7 @@ export const BCenterGridStory = () => (
 );
 
 BCenterGridStory.story = {
-  name: 'default',
+  name: 'Default',
   parameters: {
     notes: 'A centered grid item',
   },
